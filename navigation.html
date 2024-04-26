@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내비게이션</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+       * {margin:0; padding:0; }
+       body { width:100%; overflow-x:hidden;}
+       ul { list-style-type: style none; }
+       a { text-decoration: none;}
+       .wrap {min-height : 250px;}
+       .blank { width: 100; clear : both; min-height:150px;}
+       .title { padding-top:2rem; padding-bottom: 0.5rem; text-align:center;}
+    </style>
+</head>
+<body>
+    <h2 class="title">메인메뉴</h2>
+    <nav id="gnb">
+        <ul class="menu">
+            <li><a href="">메뉴1</a></li>
+            <li><a href="">메뉴2 메뉴2 메뉴2</a></li>
+            <li><a href="">메뉴3 메뉴3</a></li>
+            <li><a href="">메뉴4 메뉴4 메뉴4 메뉴4 메뉴4</a></li>
+            <li><a href="">메뉴5</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <!--nav#gnb2>ul.menu>li>a.dp1{메인$}+(ul.sub>li*5>a.dp2{서브$$})-->
+    <h2 class="tile">메인메뉴</h2>
+    <div class="wrap clr -fix">
+        <ul class="menu clr-fix">
+            <li class="item1">
+                <a href="" class="dp1">메인</a>
+                <ul class="sub">
+                    <li><a href="" class="dp2">서브1</a></li>
+                    <li><a href="" class="dp2">서브2</a></li>
+                    <li><a href="" class="dp2">서브3</a></li>
+                    <li><a href="" class="dp2">서브4</a></li>
+                </ul>
+            </li>
+        </ul>
+    </class>
+    <h2 class="title">상단메뉴</h2>
+    <div class="wrap">
+        <nav id="tnb">
+            <ul class="menu"></ul>
+                <li><a href="">상단메뉴1</a></li>
+                <li><a href="">상단메뉴2</a></li>
+                <li><a href="">상단메뉴3</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="contents">
+        <figure id="vs">
+            <img src="https://placehold.it/960x280/333" alt="비주얼배너">
+        </figure>
+        <h2 class="title">서브 페이지</h2>
+        <hr>
+        <div class="breadcrumb">
+            <p> 
+                <a href="">홈</a><a href="">메인메뉴</a><span>현재 페이지</span>
+            </p>
+        </div>
+</body>
+</html>
